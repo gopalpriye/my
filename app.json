@@ -1,0 +1,29 @@
+
+{
+    "name": "Repo",
+    "description": "PW Without Purchase Repo",
+    "repository": "https://github.com/",
+    "keywords": [
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
+        "API_ID":{
+            "description": "Get your telegram API ID from https://my.telegram.org",
+            "value":"18116358"
+        },
+        "API_HASH":{
+            "description":"Get your telegram API HASH from https://my.telegram.org",
+		    "value":"80e7597f27a57df271dfc500120d4ea9"
+        },
+        "BOT_TOKEN":{
+            "description":"Get from BotFather",
+            "value":"7207739619:AAF9kZhpI9YbRa4-QUtyfH7VUmKw3RtjBww"
+        },
+        "AUTH_USERS":{
+            "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
+            "value":"7836088695"
+        }
+    }
+
+}
